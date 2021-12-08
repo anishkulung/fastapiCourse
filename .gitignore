@@ -1,0 +1,4 @@
+__pycache__
+fapi
+.env
+postgres_users_id_pw.txt
