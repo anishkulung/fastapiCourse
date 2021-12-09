@@ -30,9 +30,10 @@ app.include_router(auth.router)
 app.include_router(vote.router)
 
 #define the root path
-@app.get("/")
+
 
 #define the function
+@app.get("/")
 async def root():
     return {"message": "Hello World"}
 
